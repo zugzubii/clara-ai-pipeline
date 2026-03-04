@@ -1,0 +1,189 @@
+{
+  "name": "Pipeline A - Demo to Agent v1",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "ea3b59f0-19e4-4f6c-a488-8d7073779d12",
+      "name": "Manual Trigger",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        256,
+        752
+      ]
+    },
+    {
+      "parameters": {
+        "fileSelector": "data/demo_001.txt",
+        "options": {
+          "dataPropertyName": "fileContent"
+        }
+      },
+      "id": "ecc34cd4-a598-4427-95d8-ffa62ec1a130",
+      "name": "Read Text File",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1.1,
+      "position": [
+        480,
+        752
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.groq.com/openai/v1/chat/completions",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ $('Read Text File').item.json }}",
+        "options": {}
+      },
+      "id": "13b4b68e-fcdd-4e18-9a84-da99c3223f87",
+      "name": "Groq API Request",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [
+        704,
+        752
+      ]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "id-1",
+              "name": "content",
+              "value": "={{ $('Groq API Request').item.json.choices[0].message.content }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "e183290c-629f-429b-91fb-10e2ce85591d",
+      "name": "Parse JSON Response",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        928,
+        752
+      ]
+    },
+    {
+      "parameters": {
+        "tableId": "<__PLACEHOLDER_VALUE__supabase_table_name__>"
+      },
+      "id": "b3e9d701-2838-4364-b114-9940c9f50287",
+      "name": "Insert to Supabase",
+      "type": "n8n-nodes-base.supabase",
+      "typeVersion": 1,
+      "position": [
+        256,
+        304
+      ],
+      "credentials": {
+        "supabaseApi": {
+          "id": "nvQ58c96HXThCIMj",
+          "name": "Supabase account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "write",
+        "fileName": "outputs/result.txt",
+        "options": {}
+      },
+      "id": "ca70078b-b290-4276-8ab5-1fe5f93a70e4",
+      "name": "Write Output File",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1.1,
+      "position": [
+        256,
+        528
+      ]
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Manual Trigger": {
+      "main": [
+        [
+          {
+            "node": "Read Text File",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Read Text File": {
+      "main": [
+        [
+          {
+            "node": "Groq API Request",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Groq API Request": {
+      "main": [
+        [
+          {
+            "node": "Parse JSON Response",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Parse JSON Response": {
+      "main": [
+        [
+          {
+            "node": "Insert to Supabase",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Insert to Supabase": {
+      "main": [
+        [
+          {
+            "node": "Write Output File",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": false
+  },
+  "versionId": "f8d89609-b443-48c6-bc91-975e0be0c9d5",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "12622b167e0ebb3d81e022b5a2a0d333f7b61ffbcbb10165f21c44c9c22b9f4e"
+  },
+  "id": "UbGNWh7ghQ3SAWZT",
+  "tags": []
+}

@@ -1,0 +1,130 @@
+{
+  "account_id": "ACC-002",
+  "changed_at": "2026-03-04T20:21:13.111316Z",
+  "from_version": "v1",
+  "to_version": "v2",
+  "total_changes": 9,
+  "changes": [
+    {
+      "field": "business_hours",
+      "old_value": {
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "start": "7am",
+        "end": "6pm",
+        "timezone": "Central Time"
+      },
+      "new_value": {
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "start": "7:30am",
+        "end": "6pm",
+        "timezone": "Central"
+      },
+      "reason": "Updated from onboarding call"
+    },
+    {
+      "field": "office_address",
+      "old_value": "4821 Burnet Road, Austin TX 78756",
+      "new_value": null,
+      "reason": "Updated from onboarding call"
+    },
+    {
+      "field": "services_supported",
+      "old_value": [
+        "heating installs",
+        "cooling installs",
+        "repairs",
+        "maintenance"
+      ],
+      "new_value": [],
+      "reason": "Updated from onboarding call"
+    },
+    {
+      "field": "emergency_definition",
+      "old_value": [
+        "furnace goes out in winter",
+        "AC failure in summer for vulnerable people",
+        "gas leak"
+      ],
+      "new_value": [
+        "furnace failure",
+        "AC failure for vulnerable",
+        "gas leak",
+        "flooding from HVAC unit"
+      ],
+      "reason": "Updated from onboarding call"
+    },
+    {
+      "field": "emergency_routing_rules",
+      "old_value": {
+        "primary_contact": "on-call tech",
+        "order": [
+          "on-call tech"
+        ],
+        "fallback": null
+      },
+      "new_value": {
+        "primary_contact": "512-334-7890",
+        "order": [
+          "512-334-7890",
+          "512-334-7891"
+        ],
+        "fallback": "512-334-7891"
+      },
+      "reason": "Updated from onboarding call"
+    },
+    {
+      "field": "non_emergency_routing_rules",
+      "old_value": {
+        "contact": null,
+        "method": "leave a message, call back next business day"
+      },
+      "new_value": {
+        "contact": null,
+        "method": "Collect name, number, issue description"
+      },
+      "reason": "Updated from onboarding call"
+    },
+    {
+      "field": "call_transfer_rules",
+      "old_value": {
+        "timeout_seconds": null,
+        "retries": null,
+        "fail_message": null
+      },
+      "new_value": {
+        "timeout_seconds": 45,
+        "retries": null,
+        "fail_message": "apologize and log it"
+      },
+      "reason": "Updated from onboarding call"
+    },
+    {
+      "field": "integration_constraints",
+      "old_value": [
+        "ServiceTitan"
+      ],
+      "new_value": [
+        "Do not auto-create jobs. Always flag for dispatcher review first"
+      ],
+      "reason": "Updated from onboarding call"
+    },
+    {
+      "field": "after_hours_flow_summary",
+      "old_value": "leave a message, call back next business day for non-emergencies, on-call tech for emergencies",
+      "new_value": "Collect name, number, issue description. We will follow up within 2 hours next business day",
+      "reason": "Updated from onboarding call"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "company_name": "Pinnacle Electrical",
+  "business_hours": {
+    "days": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "start": "7am",
+    "end": "7pm",
+    "timezone": "Mountain Time"
+  },
+  "office_address": "9302 E Camelback Rd, Scottsdale AZ 85251",
+  "services_supported": [
+    "Commercial electrical work",
+    "Residential electrical work"
+  ],
+  "emergency_definition": [
+    "Power outages affecting a whole building",
+    "Electrical fires",
+    "Exposed live wiring"
+  ],
+  "emergency_routing_rules": {
+    "primary_contact": "Sarah",
+    "order": [
+      "480-223-5567"
+    ],
+    "fallback": null
+  },
+  "non_emergency_routing_rules": {
+    "contact": "Voicemail",
+    "method": "Return calls next morning"
+  },
+  "call_transfer_rules": {
+    "timeout_seconds": null,
+    "retries": null,
+    "fail_message": null
+  },
+  "integration_constraints": [],
+  "after_hours_flow_summary": "Voicemail only, return calls next morning",
+  "office_hours_flow_summary": null,
+  "questions_or_unknowns": [],
+  "notes": null,
+  "account_id": "ACC-004",
+  "version": "v1"
+}

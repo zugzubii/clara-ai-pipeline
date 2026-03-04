@@ -1,0 +1,51 @@
+{
+  "company_name": "Riverside Fire Protection",
+  "business_hours": {
+    "days": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "start": "8:00",
+    "end": "17:00",
+    "timezone": "Pacific"
+  },
+  "office_address": "Seattle",
+  "services_supported": [],
+  "emergency_definition": [
+    "active sprinkler discharge"
+  ],
+  "emergency_routing_rules": {
+    "primary_contact": "206-881-2200",
+    "order": [
+      "dispatch",
+      "fallback"
+    ],
+    "fallback": "page on-call tech"
+  },
+  "non_emergency_routing_rules": {
+    "contact": "206-992-4400",
+    "method": "direct route for senior tech line"
+  },
+  "call_transfer_rules": {
+    "timeout_seconds": 30,
+    "retries": null,
+    "fail_message": "we've paged the on-call team and they'll respond within 10 minutes"
+  },
+  "integration_constraints": [
+    "no auto sprinkler jobs",
+    "no automatic inspection jobs"
+  ],
+  "after_hours_flow_summary": null,
+  "office_hours_flow_summary": null,
+  "questions_or_unknowns": [
+    "non-emergency contact method",
+    "retries"
+  ],
+  "notes": null,
+  "account_id": "ACC-003",
+  "version": "v2",
+  "updated_at": "2026-03-04T20:21:13.834716Z"
+}

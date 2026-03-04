@@ -1,0 +1,14 @@
+Onboarding Call Transcript - Greenfield HVAC Services
+
+Rep: Let's lock in the final configuration. Confirming hours are 7am to 6pm Monday to Friday Central?
+Client: Actually make it 7:30am. We don't start answering until then.
+Rep: Got it. Emergency definition — furnace failure, AC failure for vulnerable, gas leak?
+Client: Add flooding from HVAC unit to that list too.
+Rep: Emergency number still 512-334-7890?
+Client: Yes but add a fallback — if no answer in 45 seconds, try 512-334-7891.
+Rep: Transfer timeout?
+Client: 45 seconds, then apologize and log it.
+Rep: ServiceTitan — any constraints?
+Client: Do not auto-create jobs. Always flag for dispatcher review first.
+Rep: After hours non-emergency?
+Client: Collect name, number, issue description. We will follow up within 2 hours next business day.

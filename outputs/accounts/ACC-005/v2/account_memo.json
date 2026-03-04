@@ -1,0 +1,49 @@
+{
+  "company_name": "BlueSky Plumbing and Drain",
+  "business_hours": {
+    "days": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "start": "8am",
+    "end": "6pm",
+    "timezone": "Mountain"
+  },
+  "office_address": null,
+  "services_supported": [],
+  "emergency_definition": [
+    "burst pipes",
+    "sewage backup",
+    "no hot water for vulnerable",
+    "major leaks",
+    "gas smell near water heater"
+  ],
+  "emergency_routing_rules": {
+    "primary_contact": "720-445-3310",
+    "order": [],
+    "fallback": null
+  },
+  "non_emergency_routing_rules": {
+    "contact": null,
+    "method": null
+  },
+  "call_transfer_rules": {
+    "timeout_seconds": 40,
+    "retries": null,
+    "fail_message": "someone will call back within 20 minutes"
+  },
+  "integration_constraints": [
+    "no auto invoice creation in QuickBooks"
+  ],
+  "after_hours_flow_summary": null,
+  "office_hours_flow_summary": null,
+  "questions_or_unknowns": [],
+  "notes": null,
+  "account_id": "ACC-005",
+  "version": "v2",
+  "updated_at": "2026-03-04T20:21:15.158336Z"
+}

@@ -1,0 +1,12 @@
+Onboarding Call Transcript - Pinnacle Electrical Contractors
+
+Rep: Confirming 7 days a week — weekdays 7am to 7pm, weekends 8am to 4pm Mountain?
+Client: Yes that's right.
+Rep: Emergency contact Sarah at 480-223-5567?
+Client: Updated actually — Sarah left. New contact is Marcus at 480-223-6001.
+Rep: Same emergency types — outages, electrical fires, live wiring?
+Client: Add generator failure for commercial clients to that list.
+Rep: Transfer timeout?
+Client: 60 seconds. Then take a message and assure callback within 30 minutes.
+Rep: Any integrations finalized?
+Client: We decided on ServiceTitan. Do not create electrical panel jobs automatically, needs review.

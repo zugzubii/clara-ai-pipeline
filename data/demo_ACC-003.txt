@@ -1,0 +1,14 @@
+Demo Call Transcript - Riverside Fire Protection
+
+Rep: Tell me about Riverside Fire Protection.
+Client: We handle fire suppression systems, sprinkler installs, and annual inspections in the Seattle area.
+Rep: Business hours?
+Client: Monday to Friday, 8am to 5pm Pacific Time. Sometimes Saturday mornings but not always.
+Rep: What's an emergency for you?
+Client: Active sprinkler discharge, fire alarm going off, or a suppression system failure at a facility.
+Rep: After-hours emergency routing?
+Client: Call goes to our dispatch line at 206-881-2200. If no answer, page the on-call technician.
+Rep: Any integration constraints?
+Client: We use ServiceTrade. Never create sprinkler jobs automatically — those need manual review.
+Rep: Address?
+Client: 1150 Harbor Ave SW, Seattle WA 98126.

@@ -1,0 +1,12 @@
+Onboarding Call Transcript - Riverside Fire Protection
+
+Rep: Confirming Seattle location, Monday to Friday 8 to 5 Pacific?
+Client: Correct. Add that we're closed on all federal holidays.
+Rep: Emergency routing — dispatch at 206-881-2200, fallback page on-call tech?
+Client: Yes. Also, for active sprinkler discharge specifically, always collect the facility address before transferring.
+Rep: ServiceTrade constraint — no auto sprinkler jobs?
+Client: Correct. Also, never create inspection jobs automatically either. Both need manual review.
+Rep: Transfer timeout?
+Client: 30 seconds. If it fails, tell the caller we've paged the on-call team and they'll respond within 10 minutes.
+Rep: Anything else?
+Client: If a caller mentions the words 'chemical suppression' or 'clean agent' route directly to senior tech line at 206-992-4400.

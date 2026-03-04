@@ -1,0 +1,50 @@
+{
+  "company_name": "BlueSky Plumbing and Drain",
+  "business_hours": {
+    "days": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "start": "8am",
+    "end": "6pm",
+    "timezone": "Mountain Time"
+  },
+  "office_address": "2240 Blake Street, Denver CO 80205",
+  "services_supported": [
+    "residential",
+    "light commercial"
+  ],
+  "emergency_definition": [
+    "burst pipes",
+    "sewage backup",
+    "no hot water for elderly or families with infants",
+    "major leaks"
+  ],
+  "emergency_routing_rules": {
+    "primary_contact": "rotating on-call plumber",
+    "order": [],
+    "fallback": "720-445-3310"
+  },
+  "non_emergency_routing_rules": {
+    "contact": null,
+    "method": null
+  },
+  "call_transfer_rules": {
+    "timeout_seconds": null,
+    "retries": null,
+    "fail_message": null
+  },
+  "integration_constraints": [
+    "QuickBooks for invoicing"
+  ],
+  "after_hours_flow_summary": null,
+  "office_hours_flow_summary": null,
+  "questions_or_unknowns": [],
+  "notes": null,
+  "account_id": "ACC-005",
+  "version": "v1"
+}

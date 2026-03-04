@@ -1,0 +1,16 @@
+Demo Call Transcript - Pinnacle Electrical Contractors
+
+Rep: Great to meet you. Tell me about your company.
+Client: We're Pinnacle Electrical, based in Phoenix Arizona. Commercial and residential electrical work.
+Rep: Hours of operation?
+Client: Seven days a week actually. 7am to 7pm Mountain Time on weekdays, 8am to 4pm on weekends.
+Rep: Emergencies?
+Client: Power outages affecting a whole building, electrical fires, exposed live wiring. Those are critical.
+Rep: Emergency contact?
+Client: Our operations manager Sarah. Number is 480-223-5567.
+Rep: Non-emergency after hours?
+Client: Voicemail only, we return calls next morning.
+Rep: Integrations?
+Client: Nothing specific yet. We're evaluating options.
+Rep: Office address?
+Client: 9302 E Camelback Rd, Scottsdale AZ 85251.

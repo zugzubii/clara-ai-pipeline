@@ -1,0 +1,143 @@
+{
+  "account_id": "ACC-001",
+  "changed_at": "2026-03-04T20:21:12.172193Z",
+  "from_version": "v1",
+  "to_version": "v2",
+  "total_changes": 12,
+  "changes": [
+    {
+      "field": "company_name",
+      "old_value": "Ben's Electric Solutions Team",
+      "new_value": "Ben's Electric Solutions",
+      "reason": "Updated from onboarding call"
+    },
+    {
+      "field": "business_hours",
+      "old_value": {
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "start": "8:30",
+        "end": "5:00",
+        "timezone": null
+      },
+      "new_value": {
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "start": "8am",
+        "end": "5pm",
+        "timezone": "Mountain Time"
+      },
+      "reason": "Updated from onboarding call"
+    },
+    {
+      "field": "services_supported",
+      "old_value": [],
+      "new_value": [
+        "electrical faults",
+        "power outages",
+        "exposed wiring",
+        "generator failures for commercial sites"
+      ],
+      "reason": "Updated from onboarding call"
+    },
+    {
+      "field": "emergency_definition",
+      "old_value": [],
+      "new_value": [
+        "electrical faults",
+        "power outages",
+        "exposed wiring",
+        "generator failures for commercial sites"
+      ],
+      "reason": "Updated from onboarding call"
+    },
+    {
+      "field": "emergency_routing_rules",
+      "old_value": {
+        "primary_contact": "Ben",
+        "order": [],
+        "fallback": null
+      },
+      "new_value": {
+        "primary_contact": "Ben",
+        "order": [
+          "Ben's cell",
+          "office line"
+        ],
+        "fallback": null
+      },
+      "reason": "Updated from onboarding call"
+    },
+    {
+      "field": "non_emergency_routing_rules",
+      "old_value": {
+        "contact": null,
+        "method": null
+      },
+      "new_value": {
+        "contact": "Shelley",
+        "method": "route to office manager"
+      },
+      "reason": "Updated from onboarding call"
+    },
+    {
+      "field": "call_transfer_rules",
+      "old_value": {
+        "timeout_seconds": null,
+        "retries": null,
+        "fail_message": null
+      },
+      "new_value": {
+        "timeout_seconds": 30,
+        "retries": null,
+        "fail_message": "apologize and log it, Ben will call back within 15 minutes"
+      },
+      "reason": "Updated from onboarding call"
+    },
+    {
+      "field": "integration_constraints",
+      "old_value": [],
+      "new_value": [
+        "do not auto-create jobs in ServiceTrade"
+      ],
+      "reason": "Updated from onboarding call"
+    },
+    {
+      "field": "after_hours_flow_summary",
+      "old_value": "No emergency calls except for existing builders and one property manager (G&M Pressure Washing)",
+      "new_value": "collect name, number and description, follow up next business day",
+      "reason": "Updated from onboarding call"
+    },
+    {
+      "field": "office_hours_flow_summary",
+      "old_value": "Clara will answer calls and transfer to Ben if necessary",
+      "new_value": null,
+      "reason": "Updated from onboarding call"
+    },
+    {
+      "field": "questions_or_unknowns",
+      "old_value": [],
+      "new_value": [
+        "office address",
+        "office line number"
+      ],
+      "reason": "Updated from onboarding call"
+    },
+    {
+      "field": "notes",
+      "old_value": "Service call fee is $115, hourly charge is $98",
+      "new_value": null,
+      "reason": "Updated from onboarding call"
+    }
+  ]
+}

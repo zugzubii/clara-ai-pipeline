@@ -1,0 +1,16 @@
+Demo Call Transcript - Greenfield HVAC Services
+
+Rep: Thanks for joining today. Can you tell me about your business?
+Client: Sure, we're Greenfield HVAC Services based in Austin, Texas. We do heating and cooling installs, repairs, and maintenance.
+Rep: What are your business hours?
+Client: Monday through Friday, 7am to 6pm Central Time.
+Rep: What counts as an emergency for you?
+Client: If a furnace goes out in winter, AC failure in summer for vulnerable people, or a gas leak. Those are immediate.
+Rep: Who handles emergency calls after hours?
+Client: Our on-call tech. His number is 512-334-7890.
+Rep: What about non-emergency after hours?
+Client: They leave a message, we call back next business day.
+Rep: Any systems we need to integrate with?
+Client: We use ServiceTitan for job management.
+Rep: Great. Office address?
+Client: 4821 Burnet Road, Austin TX 78756.

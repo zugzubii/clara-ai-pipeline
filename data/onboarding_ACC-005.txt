@@ -1,0 +1,12 @@
+Onboarding Call Transcript - BlueSky Plumbing and Drain
+
+Rep: Confirming Monday to Saturday, 8am to 6pm Mountain?
+Client: Change Saturday to 9am to 2pm only.
+Rep: Emergency types confirmed — burst pipes, sewage backup, no hot water for vulnerable, major leaks?
+Client: Yes and add gas smell near water heater as emergency too.
+Rep: On-call dispatch at 720-445-3310?
+Client: Still correct.
+Rep: Transfer timeout?
+Client: 40 seconds. If fail, log it and tell them someone will call back within 20 minutes.
+Rep: QuickBooks — any constraints for the pipeline?
+Client: No auto invoice creation. That's manual only.

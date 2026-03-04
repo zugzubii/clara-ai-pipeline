@@ -1,0 +1,56 @@
+{
+  "company_name": "Riverside Fire Protection",
+  "business_hours": {
+    "days": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "start": "8am",
+    "end": "5pm",
+    "timezone": "Pacific Time"
+  },
+  "office_address": "1150 Harbor Ave SW, Seattle WA 98126",
+  "services_supported": [
+    "fire suppression systems",
+    "sprinkler installs",
+    "annual inspections"
+  ],
+  "emergency_definition": [
+    "Active sprinkler discharge",
+    "fire alarm going off",
+    "suppression system failure at a facility"
+  ],
+  "emergency_routing_rules": {
+    "primary_contact": "dispatch line at 206-881-2200",
+    "order": [
+      "dispatch line",
+      "on-call technician"
+    ],
+    "fallback": "page the on-call technician"
+  },
+  "non_emergency_routing_rules": {
+    "contact": null,
+    "method": null
+  },
+  "call_transfer_rules": {
+    "timeout_seconds": null,
+    "retries": null,
+    "fail_message": null
+  },
+  "integration_constraints": [
+    "Never create sprinkler jobs automatically",
+    "use ServiceTrade"
+  ],
+  "after_hours_flow_summary": "Call goes to dispatch line, if no answer, page on-call technician",
+  "office_hours_flow_summary": null,
+  "questions_or_unknowns": [
+    "Saturday morning hours variability"
+  ],
+  "notes": null,
+  "account_id": "ACC-003",
+  "version": "v1"
+}

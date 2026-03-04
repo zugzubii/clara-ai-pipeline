@@ -1,0 +1,56 @@
+{
+  "company_name": "Pinnacle Electrical Contractors",
+  "business_hours": {
+    "days": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "start": "7am",
+    "end": "7pm",
+    "timezone": "Mountain"
+  },
+  "office_address": null,
+  "services_supported": [
+    "outages",
+    "electrical fires",
+    "live wiring",
+    "generator failure"
+  ],
+  "emergency_definition": [
+    "outages",
+    "electrical fires",
+    "live wiring",
+    "generator failure"
+  ],
+  "emergency_routing_rules": {
+    "primary_contact": "Marcus",
+    "order": [
+      "480-223-6001"
+    ],
+    "fallback": null
+  },
+  "non_emergency_routing_rules": {
+    "contact": null,
+    "method": null
+  },
+  "call_transfer_rules": {
+    "timeout_seconds": 60,
+    "retries": null,
+    "fail_message": "take a message and assure callback within 30 minutes"
+  },
+  "integration_constraints": [
+    "do not create electrical panel jobs automatically"
+  ],
+  "after_hours_flow_summary": null,
+  "office_hours_flow_summary": null,
+  "questions_or_unknowns": [],
+  "notes": "ServiceTitan integration",
+  "account_id": "ACC-004",
+  "version": "v2",
+  "updated_at": "2026-03-04T20:21:14.525571Z"
+}

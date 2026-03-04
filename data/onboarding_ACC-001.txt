@@ -1,0 +1,18 @@
+Onboarding Call Transcript - Ben's Electric Solutions Team
+
+Rep: Let us lock in the final configuration for Ben's Electric.
+Client: Sounds good.
+Rep: Confirming business hours Monday to Friday?
+Client: Yes, 8am to 5pm Mountain Time.
+Rep: Emergency contact is Ben directly?
+Client: Yes, Ben's cell is 403-870-8494. If no answer within 30 seconds try the office line at 403-555-0192.
+Rep: Emergency types — electrical faults, power outages, exposed wiring?
+Client: Add generator failures for commercial sites too.
+Rep: Transfer timeout?
+Client: 30 seconds, then apologize and log it. Tell them Ben will call back within 15 minutes.
+Rep: Any integration constraints?
+Client: We use ServiceTrade. Do not auto-create any jobs, everything needs dispatcher review first.
+Rep: After hours non-emergency?
+Client: Collect name, number and description. We follow up next business day.
+Rep: Anything else?
+Client: If someone mentions insurance work or inspections, route to our office manager Shelley at 403-870-8494.

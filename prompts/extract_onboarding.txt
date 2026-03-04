@@ -1,0 +1,24 @@
+You are updating an existing Clara AI agent configuration based on a new onboarding call.
+
+You will be given:
+1. The EXISTING v1 configuration (already extracted from the demo call)
+2. A NEW onboarding call transcript
+
+Your job:
+- Extract ONLY the fields that are NEW or DIFFERENT from the onboarding call
+- Return ONLY the fields that changed or were newly confirmed
+- Do NOT return fields that are unchanged
+- Do NOT hallucinate or invent information
+- Put anything still unclear in "questions_or_unknowns"
+
+Return ONLY valid JSON of the fields that changed. Example:
+{
+  "business_hours": { "days": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "start": "8:00 AM", "end": "5:00 PM", "timezone": "EST" },
+  "questions_or_unknowns": []
+}
+
+EXISTING V1 CONFIGURATION:
+{{v1_memo}}
+
+NEW ONBOARDING TRANSCRIPT:
+{{transcript}}

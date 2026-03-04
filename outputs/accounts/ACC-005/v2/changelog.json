@@ -1,0 +1,109 @@
+{
+  "account_id": "ACC-005",
+  "changed_at": "2026-03-04T20:21:15.158336Z",
+  "from_version": "v1",
+  "to_version": "v2",
+  "total_changes": 7,
+  "changes": [
+    {
+      "field": "business_hours",
+      "old_value": {
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "start": "8am",
+        "end": "6pm",
+        "timezone": "Mountain Time"
+      },
+      "new_value": {
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "start": "8am",
+        "end": "6pm",
+        "timezone": "Mountain"
+      },
+      "reason": "Updated from onboarding call"
+    },
+    {
+      "field": "office_address",
+      "old_value": "2240 Blake Street, Denver CO 80205",
+      "new_value": null,
+      "reason": "Updated from onboarding call"
+    },
+    {
+      "field": "services_supported",
+      "old_value": [
+        "residential",
+        "light commercial"
+      ],
+      "new_value": [],
+      "reason": "Updated from onboarding call"
+    },
+    {
+      "field": "emergency_definition",
+      "old_value": [
+        "burst pipes",
+        "sewage backup",
+        "no hot water for elderly or families with infants",
+        "major leaks"
+      ],
+      "new_value": [
+        "burst pipes",
+        "sewage backup",
+        "no hot water for vulnerable",
+        "major leaks",
+        "gas smell near water heater"
+      ],
+      "reason": "Updated from onboarding call"
+    },
+    {
+      "field": "emergency_routing_rules",
+      "old_value": {
+        "primary_contact": "rotating on-call plumber",
+        "order": [],
+        "fallback": "720-445-3310"
+      },
+      "new_value": {
+        "primary_contact": "720-445-3310",
+        "order": [],
+        "fallback": null
+      },
+      "reason": "Updated from onboarding call"
+    },
+    {
+      "field": "call_transfer_rules",
+      "old_value": {
+        "timeout_seconds": null,
+        "retries": null,
+        "fail_message": null
+      },
+      "new_value": {
+        "timeout_seconds": 40,
+        "retries": null,
+        "fail_message": "someone will call back within 20 minutes"
+      },
+      "reason": "Updated from onboarding call"
+    },
+    {
+      "field": "integration_constraints",
+      "old_value": [
+        "QuickBooks for invoicing"
+      ],
+      "new_value": [
+        "no auto invoice creation in QuickBooks"
+      ],
+      "reason": "Updated from onboarding call"
+    }
+  ]
+}

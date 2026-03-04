@@ -1,0 +1,52 @@
+{
+  "company_name": "Greenfield HVAC Services",
+  "business_hours": {
+    "days": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "start": "7am",
+    "end": "6pm",
+    "timezone": "Central Time"
+  },
+  "office_address": "4821 Burnet Road, Austin TX 78756",
+  "services_supported": [
+    "heating installs",
+    "cooling installs",
+    "repairs",
+    "maintenance"
+  ],
+  "emergency_definition": [
+    "furnace goes out in winter",
+    "AC failure in summer for vulnerable people",
+    "gas leak"
+  ],
+  "emergency_routing_rules": {
+    "primary_contact": "on-call tech",
+    "order": [
+      "on-call tech"
+    ],
+    "fallback": null
+  },
+  "non_emergency_routing_rules": {
+    "contact": null,
+    "method": "leave a message, call back next business day"
+  },
+  "call_transfer_rules": {
+    "timeout_seconds": null,
+    "retries": null,
+    "fail_message": null
+  },
+  "integration_constraints": [
+    "ServiceTitan"
+  ],
+  "after_hours_flow_summary": "leave a message, call back next business day for non-emergencies, on-call tech for emergencies",
+  "office_hours_flow_summary": null,
+  "questions_or_unknowns": [],
+  "notes": null,
+  "account_id": "ACC-002",
+  "version": "v1"
+}
